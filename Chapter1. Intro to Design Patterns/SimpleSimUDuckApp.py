@@ -23,28 +23,49 @@ class Duck(ABC):
 
 class MallardDuck(Duck):
 
+    def quack(self):
+        pass
+
+    def swim(self):
+        pass
+
+    def fly(self):
+        pass
+
     def display(self):
         print("It looks like a mallard")
 
 
 class RedHeadDuck(Duck):
 
+    def quack(self):
+        pass
+
+    def swim(self):
+        pass
+
+    def fly(self):
+        pass
+
     def display(self):
         print("It looks like a red head")
 
 
 class RubberDuck(Duck):
-    
-    def quack(self):
-        # overriden to Squeak
+
+    def swim(self):
         pass
-    
+
+    def quack(self):
+        # overridden to Squeak
+        pass
+
     def fly(self):
         # do not fly
         pass
 
     def display(self):
-        print("It looks like a rubberduck")
+        print("It looks like a rubber duck")
 
 
 """
