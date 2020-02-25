@@ -55,3 +55,7 @@ What's the disadvantage of it?
 When you have more and more duck like instance, you'll have to override all the methods you need.
 That makes future maintance become a nightmare
 """
+
+if __name__ == "__main__":
+    mallard = MallardDuck()
+    mallard.display()
