@@ -127,7 +127,6 @@ class PizzaStore(ABC):
         pizza.prepare()
         pizza.bake()
         pizza.cut()
-        pizza.cut()
         return pizza
 
 
